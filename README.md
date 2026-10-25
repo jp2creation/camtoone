@@ -1,28 +1,55 @@
-# Camtoone — modules et mises à jour
+<p align="center">
+  <a href="https://camtoone.app">
+    <img src="assets/branding/camtoone-icon.png" alt="Camtoone camera icon" width="80" height="80">
+  </a>
+</p>
 
-Ce dépôt centralise les modules complémentaires de **Camtoone**, leur documentation et leurs versions téléchargeables.
+<p align="center">
+  <a href="https://camtoone.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/branding/camtoone-logo-dark.svg">
+      <img src="assets/branding/camtoone-logo-light.svg" alt="Camtoone — All cams to one view" width="420">
+    </picture>
+  </a>
+</p>
 
-## Choisir un module
+<h1 align="center">Camtoone modules</h1>
 
-| Module | Utilisation | Disponibilité dans ce dépôt |
+<p align="center">Official bridges, plugins and updates for Camtoone.</p>
+
+<p align="center">
+  <a href="https://camtoone.app"><strong>camtoone.app</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#choose-a-module">Browse modules</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/jp2creation/camtoone/releases">Releases</a>
+</p>
+
+Bring your camera setup into Camtoone with the companion module that fits your installation. This repository is the home for module documentation, installation packages and updates.
+
+## Choose a module
+
+| Module | Purpose | Availability |
 | --- | --- | --- |
-| [Bridge Home Assistant](bridge-home-assistant/) | Installer le Bridge dans Home Assistant et le relier à Camtoone. | Préparation |
-| [Bridge Docker](bridge-docker/) | Héberger le Bridge avec Docker, en dehors de Home Assistant. | Préparation |
-| [Bridge Scrypted](bridge-scrypted/) | Relier Scrypted à Camtoone au moyen du plugin dédié. | Préparation |
+| [Home Assistant Bridge](bridge-home-assistant/) | Run Camtoone Bridge as a Home Assistant app/add-on. | In preparation |
+| [Docker Bridge](bridge-docker/) | Host Camtoone Bridge with Docker, outside Home Assistant. | In preparation |
+| [Scrypted Bridge](bridge-scrypted/) | Connect Scrypted to Camtoone with the dedicated plugin. | In preparation |
 
-Chaque dossier regroupe la présentation du module, ses prérequis, son installation et le suivi de ses mises à jour. La fiche du module indiquera les liens de téléchargement dès sa première publication ici.
+Each module has its own requirements, installation guide and release history. Download links will appear on its page when its first package is published and verified in this repository.
 
-## Télécharger et mettre à jour
+## Download and update
 
-1. Ouvrir le dossier du module souhaité.
-2. Consulter ses prérequis et sa compatibilité avec l’application.
-3. Suivre le lien vers la version publiée du module.
-4. Installer le paquet en suivant les instructions de sa fiche.
+1. Open the page for your module.
+2. Check its requirements and compatibility with your Camtoone version.
+3. Follow the link to the module's published release.
+4. Install the package using the instructions on that page.
 
-Les paquets téléchargeables et leurs empreintes SHA-256 seront joints aux [versions publiées](https://github.com/jp2creation/camtoone/releases).
+Installation packages and their SHA-256 checksums will be attached to [module releases](https://github.com/jp2creation/camtoone/releases). Version numbers are independent for each module.
 
-Les numéros de version sont propres à chaque module. Pour mettre à jour un module, utiliser sa fiche et ses versions identifiées par son nom.
+## About Camtoone
 
-## Publier un module
+**All cams to one view.** Visit [camtoone.app](https://camtoone.app) to discover the application.
 
-Voir les [règles de publication](docs/publication-des-modules.md).
+## For maintainers
+
+Read the [module publishing guide](docs/publishing-modules.md). Existing logo and icon files are available in [brand assets](assets/branding/).

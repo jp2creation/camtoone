@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 300 300" role="img" aria-labelledby="title">
+  <title id="title">CamToOne - icone oeil</title>
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff123b"/>
+      <stop offset=".5" stop-color="#ed0029"/>
+      <stop offset="1" stop-color="#b60020"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".48" stop-color="#f6f6f6"/>
+      <stop offset=".74" stop-color="#bfc1c3"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <radialGradient id="glass" cx=".36" cy=".19" r=".85">
+      <stop stop-color="#54565a"/>
+      <stop offset=".42" stop-color="#202124"/>
+      <stop offset="1" stop-color="#030405"/>
+    </radialGradient>
+    <linearGradient id="reflection" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffffff" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#red)">
+    <path d="M109 35 C141 7 176 8 199 37 C228 72 247 116 248 157 C240 112 220 76 193 51 C166 27 141 25 109 35Z"/>
+    <path d="M139 70 C103 91 70 124 46 158 C19 196 19 226 52 261 C22 249 5 230 10 201 C17 155 76 101 139 70Z"/>
+    <path d="M285 192 C291 229 264 270 226 280 C192 290 144 282 105 266 C149 278 192 273 226 255 C259 238 278 217 285 192Z"/>
+  </g>
+  <circle cx="153" cy="178" r="94" fill="url(#silver)"/>
+  <circle cx="153" cy="178" r="82" fill="#08090a"/>
+  <circle cx="153" cy="178" r="77" fill="url(#glass)" stroke="#737578" stroke-width="1.5"/>
+  <path d="M132 116 C100 129 87 160 95 192 C103 227 135 247 174 241 C135 259 96 240 85 207 C70 167 89 129 132 116Z" fill="url(#red)"/>
+  <path d="M110 115 C130 101 164 100 187 114 C168 109 140 115 119 135Z" fill="url(#reflection)"/>
+  <circle cx="187" cy="135" r="15.5" fill="#ffffff"/>
+  <circle cx="204" cy="170" r="7.6" fill="#ffffff"/>
+  <circle cx="174" cy="210" r="10.5" fill="url(#red)"/>
+</svg>

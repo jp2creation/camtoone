@@ -1,20 +1,29 @@
-# Camtoone Bridge pour Docker
+<p align="center">
+  <a href="https://camtoone.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="../assets/branding/camtoone-logo-dark.svg">
+      <img src="../assets/branding/camtoone-logo-light.svg" alt="Camtoone — All cams to one view" width="300">
+    </picture>
+  </a>
+</p>
 
-Ce module est destiné à héberger **Camtoone Bridge** avec Docker, en dehors de Home Assistant, puis à le relier à l’application Camtoone.
+# Camtoone Bridge for Docker
 
-## Disponibilité
+Host **Camtoone Bridge** with Docker, outside Home Assistant, and connect it to the Camtoone application.
 
-**Préparation de la première version dans ce dépôt.** Cette fiche accueillera la configuration Docker, la version du Bridge et les instructions d’installation vérifiées.
+## Availability
 
-## Prérequis
+**The first release in this repository is in preparation.** This page will provide the Docker configuration, Bridge version and verified setup instructions.
 
-- Un hôte disposant de Docker et de Docker Compose.
-- L’application Camtoone dans une version compatible avec le module publié.
+## Requirements
 
-## Installation et mises à jour
+- A host with Docker and Docker Compose.
+- A Camtoone application version compatible with the published module.
 
-La configuration, les volumes persistants et les paramètres réseau seront documentés avec la première version publiée. Les téléchargements utiliseront des versions portant le préfixe `bridge-docker-v`.
+## Installation and updates
 
-Chaque version publiée précisera ses plateformes prises en charge, ses changements et les étapes de mise à jour.
+Configuration, persistent volumes and network settings will be documented with the first published package. Releases for this module use the `bridge-docker-v` tag prefix.
 
-[Catalogue des modules](../README.md) · [Règles de publication](../docs/publication-des-modules.md)
+Each release will list its supported platforms, changes and update steps.
+
+[All modules](../README.md) · [Website](https://camtoone.app) · [Publishing guide](../docs/publishing-modules.md)

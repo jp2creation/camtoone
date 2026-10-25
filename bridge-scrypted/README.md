@@ -1,20 +1,29 @@
-# Camtoone Bridge pour Scrypted
+<p align="center">
+  <a href="https://camtoone.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="../assets/branding/camtoone-logo-dark.svg">
+      <img src="../assets/branding/camtoone-logo-light.svg" alt="Camtoone — All cams to one view" width="300">
+    </picture>
+  </a>
+</p>
 
-Ce module est destiné à relier **Scrypted** à l’application Camtoone au moyen du plugin Camtoone Bridge.
+# Camtoone Bridge for Scrypted
 
-## Disponibilité
+Connect **Scrypted** to the Camtoone application using the dedicated Camtoone Bridge plugin.
 
-**Préparation de la première version dans ce dépôt.** Cette fiche accueillera le paquet du plugin, sa version, sa compatibilité et les instructions d’installation vérifiées.
+## Availability
 
-## Prérequis
+**The first release in this repository is in preparation.** This page will provide the plugin package, compatibility information and verified setup instructions.
 
-- Une installation Scrypted compatible avec la version du plugin publiée.
-- L’application Camtoone dans une version compatible avec ce plugin.
+## Requirements
 
-## Installation et mises à jour
+- A Scrypted installation compatible with the published plugin.
+- A Camtoone application version compatible with the plugin.
 
-Le paquet et le parcours d’installation seront indiqués ici après vérification de la version distribuée. Les téléchargements utiliseront des versions portant le préfixe `bridge-scrypted-v`.
+## Installation and updates
 
-Les fonctionnalités prises en charge seront précisées pour chaque version du plugin.
+The plugin package and installation procedure will be added after the distributed version has been verified. Releases for this module use the `bridge-scrypted-v` tag prefix.
 
-[Catalogue des modules](../README.md) · [Règles de publication](../docs/publication-des-modules.md)
+Supported features will be documented for each plugin version.
+
+[All modules](../README.md) · [Website](https://camtoone.app) · [Publishing guide](../docs/publishing-modules.md)

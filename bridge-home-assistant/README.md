@@ -1,20 +1,29 @@
-# Camtoone Bridge pour Home Assistant
+<p align="center">
+  <a href="https://camtoone.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="../assets/branding/camtoone-logo-dark.svg">
+      <img src="../assets/branding/camtoone-logo-light.svg" alt="Camtoone — All cams to one view" width="300">
+    </picture>
+  </a>
+</p>
 
-Ce module est destiné à installer **Camtoone Bridge** dans Home Assistant et à relier cette installation à l’application Camtoone.
+# Camtoone Bridge for Home Assistant
 
-## Disponibilité
+Run **Camtoone Bridge** in Home Assistant and connect your installation to the Camtoone application.
 
-**Préparation de la première version dans ce dépôt.** Cette fiche accueillera le paquet, sa version, sa compatibilité et les instructions d’installation vérifiées.
+## Availability
 
-## Prérequis
+**The first release in this repository is in preparation.** This page will provide the installation package, compatibility information and verified setup instructions.
 
-- Une installation Home Assistant prenant en charge les apps/modules complémentaires.
-- L’application Camtoone dans une version compatible avec le module publié.
+## Requirements
 
-## Installation et mises à jour
+- A Home Assistant installation that supports apps/add-ons.
+- A Camtoone application version compatible with the published module.
 
-Le parcours d’installation Home Assistant sera indiqué ici lors de la publication du module. Les téléchargements utiliseront des versions portant le préfixe `bridge-home-assistant-v`.
+## Installation and updates
 
-Chaque version publiée précisera ses architectures prises en charge, ses changements et les étapes de mise à jour.
+The Home Assistant installation procedure will be added with the first published package. Releases for this module use the `bridge-home-assistant-v` tag prefix.
 
-[Catalogue des modules](../README.md) · [Règles de publication](../docs/publication-des-modules.md)
+Each release will list its supported architectures, changes and update steps.
+
+[All modules](../README.md) · [Website](https://camtoone.app) · [Publishing guide](../docs/publishing-modules.md)
