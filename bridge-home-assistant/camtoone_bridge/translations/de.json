@@ -1,0 +1,83 @@
+{
+  "configuration": {
+    "bridgeId": {
+      "name": "Bridge-Kennung",
+      "description": "Feste Kennung für die Kopplung."
+    },
+    "relay": {
+      "name": "Verbindungsdienst",
+      "description": "HTTPS-Dienst für Kopplung und P2P-Signalisierung; kein Video-Relay."
+    },
+    "relayKey": {
+      "name": "Schlüssel des Verbindungsdienstes",
+      "description": "Private Zugangsdaten. Geheim halten."
+    },
+    "adminKey": {
+      "name": "Administrationsschlüssel",
+      "description": "Private Administrationsdaten. Geheim halten."
+    },
+    "cameras": {
+      "name": "Kameras",
+      "description": "Kameraquellen. Kameras vorzugsweise in der Weboberfläche verwalten.",
+      "fields": {
+        "id": {
+          "name": "Kamera-Kennung",
+          "description": "Kamera-Kennung."
+        },
+        "name": {
+          "name": "Kameraname",
+          "description": "Kameraname."
+        },
+        "exposed": {
+          "name": "In Camtoone freigeben",
+          "description": "In Camtoone freigeben."
+        },
+        "rtsp": {
+          "name": "RTSP-Adresse",
+          "description": "Private Kamera-Zugangsdaten. Geheim halten."
+        },
+        "onvifHost": {
+          "name": "ONVIF-Host",
+          "description": "ONVIF-Host."
+        },
+        "onvifPort": {
+          "name": "ONVIF-Port",
+          "description": "ONVIF-Port."
+        },
+        "onvifUsername": {
+          "name": "ONVIF-Benutzername",
+          "description": "ONVIF-Benutzername."
+        },
+        "onvifPassword": {
+          "name": "ONVIF-Passwort",
+          "description": "Private Kamera-Zugangsdaten. Geheim halten."
+        },
+        "onvifProfileToken": {
+          "name": "ONVIF-Profil-Token",
+          "description": "Private Kamera-Zugangsdaten. Geheim halten."
+        }
+      }
+    },
+    "directEnabled": {
+      "name": "Lokales HTTPS",
+      "description": "Direkten HTTPS-Zugriff im Heimnetz aktivieren."
+    },
+    "p2pEnabled": {
+      "name": "Direktes P2P",
+      "description": "Direkten Peer-to-Peer-Zugriff aktivieren, soweit das Netzwerk es erlaubt."
+    },
+    "localPort": {
+      "name": "Lokaler HTTPS-Port",
+      "description": "Port für lokales HTTPS."
+    },
+    "connectionMode": {
+      "name": "Verbindungsmodus",
+      "description": "Direkt: kein Relay für Kopplung, Kameras oder Home Assistant. Bisherig: behält den bestehenden Verbindungsdienst."
+    },
+    "externalOrigin": {
+      "name": "Externe Bridge-Adresse (optional)",
+      "description": "Kanonischer HTTPS-Ursprung dieser Bridge, von außen mit demselben TLS-Zertifikat erreichbar. Eine HA-URL allein ist keine Bridge-Adresse. Keine Netzwerkeinstellungen werden geändert."
+    }
+  },
+  "network": {}
+}

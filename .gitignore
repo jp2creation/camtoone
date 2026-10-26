@@ -1,0 +1,7 @@
+**/node_modules
+*.tgz
+*.tar.gz
+.DS_Store
+*.enc
+*.key
+*.log

@@ -1,0 +1,28 @@
+{
+  "name": "@camtoone/bridge",
+  "version": "0.3.16",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "start": "node src/bridge.mjs",
+    "relay": "node src/relay.mjs",
+    "check": "node --check src/bridge.mjs && node --check src/relay.mjs"
+  },
+  "dependencies": {
+    "onvif": "0.8.3",
+    "qrcode": "1.5.4",
+    "werift": "0.25.2",
+    "ws": "8.22.0",
+    "xml2js": "0.6.2"
+  },
+  "devDependencies": {
+    "jsqr": "1.4.0",
+    "pngjs": "7.0.0",
+    "prettier": "3.6.2"
+  }
+}

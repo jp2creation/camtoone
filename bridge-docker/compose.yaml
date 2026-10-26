@@ -1,0 +1,20 @@
+services:
+  bridge:
+    build: ../bridge-home-assistant/camtoone_bridge
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      HOST: 127.0.0.1
+    volumes:
+      - "${CAMTOONE_DATA_DIR:?Set CAMTOONE_DATA_DIR to the absolute bridge-data directory}:/data"
+    read_only: true
+    tmpfs:
+      - /tmp:size=32m,mode=1777
+    cap_drop: [ALL]
+    cap_add: [CHOWN, SETUID, SETGID, DAC_OVERRIDE]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 96
+    mem_limit: 512m
+    logging:
+      driver: json-file
+      options: { max-size: "5m", max-file: "2" }

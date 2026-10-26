@@ -1,0 +1,83 @@
+{
+  "configuration": {
+    "bridgeId": {
+      "name": "Identificador da ponte",
+      "description": "Identificador estável utilizado na associação."
+    },
+    "relay": {
+      "name": "Serviço de ligação",
+      "description": "Serviço HTTPS de associação e sinalização P2P; sem retransmissão de vídeo."
+    },
+    "relayKey": {
+      "name": "Chave do serviço de ligação",
+      "description": "Credencial privada de ligação. Mantenha-a secreta."
+    },
+    "adminKey": {
+      "name": "Chave de administração",
+      "description": "Credencial privada de administração. Mantenha-a secreta."
+    },
+    "cameras": {
+      "name": "Câmaras",
+      "description": "Fontes de câmara. Prefira geri-las na interface web.",
+      "fields": {
+        "id": {
+          "name": "Identificador da câmara",
+          "description": "Identificador da câmara."
+        },
+        "name": {
+          "name": "Nome da câmara",
+          "description": "Nome da câmara."
+        },
+        "exposed": {
+          "name": "Partilhar no Camtoone",
+          "description": "Partilhar no Camtoone."
+        },
+        "rtsp": {
+          "name": "Endereço RTSP",
+          "description": "Credencial privada da câmara. Mantenha-a secreta."
+        },
+        "onvifHost": {
+          "name": "Servidor ONVIF",
+          "description": "Servidor ONVIF."
+        },
+        "onvifPort": {
+          "name": "Porta ONVIF",
+          "description": "Porta ONVIF."
+        },
+        "onvifUsername": {
+          "name": "Utilizador ONVIF",
+          "description": "Utilizador ONVIF."
+        },
+        "onvifPassword": {
+          "name": "Palavra-passe ONVIF",
+          "description": "Credencial privada da câmara. Mantenha-a secreta."
+        },
+        "onvifProfileToken": {
+          "name": "Token de perfil ONVIF",
+          "description": "Credencial privada da câmara. Mantenha-a secreta."
+        }
+      }
+    },
+    "directEnabled": {
+      "name": "HTTPS local",
+      "description": "Ativar o acesso HTTPS direto na rede doméstica."
+    },
+    "p2pEnabled": {
+      "name": "P2P direto",
+      "description": "Ativar o acesso direto entre dispositivos quando a rede o permitir."
+    },
+    "localPort": {
+      "name": "Porta HTTPS local",
+      "description": "Porta de escuta para HTTPS local."
+    },
+    "connectionMode": {
+      "name": "Modo de ligação",
+      "description": "Direto: sem retransmissão para associação, câmaras ou Home Assistant. Anterior: mantém o serviço de ligação existente."
+    },
+    "externalOrigin": {
+      "name": "Endereço externo da ponte (opcional)",
+      "description": "Origem HTTPS canónica desta ponte, acessível do exterior com o mesmo certificado TLS. Um URL HA por si só não é um endereço da ponte. A rede não é alterada."
+    }
+  },
+  "network": {}
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "module": "bridge-home-assistant",
+      "version": "0.3.16",
+      "channel": "preview",
+      "tag": "bridge-home-assistant-v0.3.16",
+      "releaseUrl": "https://github.com/jp2creation/camtoone/releases/tag/bridge-home-assistant-v0.3.16",
+      "downloadUrl": "https://github.com/jp2creation/camtoone/releases/download/bridge-home-assistant-v0.3.16/camtoone-bridge-home-assistant-0.3.16.tar.gz",
+      "sha256": "77d2688d5e7fcacd31752c6623a1908f306579f92cc1d89b84705d79ab1f1cdd",
+      "format": "source-tarball"
+    },
+    {
+      "module": "bridge-docker",
+      "version": "0.3.16",
+      "channel": "preview",
+      "tag": "bridge-docker-v0.3.16",
+      "releaseUrl": "https://github.com/jp2creation/camtoone/releases/tag/bridge-docker-v0.3.16",
+      "downloadUrl": "https://github.com/jp2creation/camtoone/releases/download/bridge-docker-v0.3.16/camtoone-bridge-docker-0.3.16.tar.gz",
+      "sha256": "f60d890afddc44411ba68f7b7138fb400ef75fe36430b8088ca4df95cddfbeb7",
+      "format": "source-tarball"
+    },
+    {
+      "module": "bridge-scrypted",
+      "version": "0.2.0",
+      "channel": "preview",
+      "tag": "bridge-scrypted-v0.2.0",
+      "releaseUrl": "https://github.com/jp2creation/camtoone/releases/tag/bridge-scrypted-v0.2.0",
+      "downloadUrl": "https://github.com/jp2creation/camtoone/releases/download/bridge-scrypted-v0.2.0/camtoone-bridge-scrypted-0.2.0.tgz",
+      "sha256": "53a720ec7796373ba0c4484554d25e7a786ed61e061daa9f88e80d8fd9be65ee",
+      "format": "npm-tarball"
+    }
+  ]
+}

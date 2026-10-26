@@ -31,11 +31,25 @@ Bring your camera setup into Camtoone with the companion module that fits your i
 
 | Module | Purpose | Availability |
 | --- | --- | --- |
-| [Home Assistant Bridge](bridge-home-assistant/) | Run Camtoone Bridge as a Home Assistant app/add-on. | In preparation |
-| [Docker Bridge](bridge-docker/) | Host Camtoone Bridge with Docker, outside Home Assistant. | In preparation |
-| [Scrypted Bridge](bridge-scrypted/) | Connect Scrypted to Camtoone with the dedicated plugin. | In preparation |
+| [Home Assistant Bridge](bridge-home-assistant/) | Run Camtoone Bridge as a Home Assistant app/add-on. | Preview download |
+| [Docker Bridge](bridge-docker/) | Host Camtoone Bridge with Docker, outside Home Assistant. | Preview download |
+| [Scrypted Bridge](bridge-scrypted/) | Connect Scrypted to Camtoone with the dedicated plugin. | Preview download |
 
-Each module has its own requirements, installation guide and release history. Download links will appear on its page when its first package is published and verified in this repository.
+Each module page links to a versioned package, SHA-256 checksums and installation instructions. These are preview distributions; check the installation route and limitations before using them.
+
+## Downloads / Téléchargements
+
+| Bridge | Version | Download | Installation |
+| --- | --- | --- | --- |
+| Home Assistant | 0.3.16 preview | [Download](https://github.com/jp2creation/camtoone/releases/download/bridge-home-assistant-v0.3.16/camtoone-bridge-home-assistant-0.3.16.tar.gz) | [Guide](bridge-home-assistant/) |
+| Docker | 0.3.16 preview | [Download](https://github.com/jp2creation/camtoone/releases/download/bridge-docker-v0.3.16/camtoone-bridge-docker-0.3.16.tar.gz) | [Guide](bridge-docker/) |
+| Scrypted | 0.2.0 preview | [Download](https://github.com/jp2creation/camtoone/releases/download/bridge-scrypted-v0.2.0/camtoone-bridge-scrypted-0.2.0.tgz) | [Guide](bridge-scrypted/) |
+
+**Home Assistant:** [Add this app repository](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fjp2creation%2Fcamtoone). Read the first-install admin-key step and the local-pilot migration note in the guide before starting a new app.
+
+**Docker:** source package to build on Linux; no prebuilt image is published. **Scrypted:** operator/developer package; public npm installation is not available. Downloading a file does not install it or alter your devices. Existing local installations keep their data and do not migrate automatically.
+
+The versioned download index is [downloads.json](downloads.json). Each release includes a separate `SHA256SUMS` and installation guide. No phone APK is included in these Bridge releases.
 
 ## Download and update
 

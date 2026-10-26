@@ -1,0 +1,49 @@
+name: Camtoone Bridge
+version: "0.3.16"
+slug: camtoone_bridge
+description: "Connect cameras and Home Assistant directly to Camtoone using a QR code"
+arch: [amd64, aarch64]
+startup: application
+boot: auto
+init: false
+stage: experimental
+ingress: true
+ingress_port: 8099
+host_network: true
+homeassistant_api: true
+panel_icon: mdi:cctv
+panel_title: Camtoone Bridge
+panel_admin: true
+options:
+  connectionMode: direct
+  externalOrigin: ""
+  bridgeId: home
+  relay: "https://relay.example.com"
+  relayKey: ""
+  adminKey: ""
+  cameras: []
+  directEnabled: true
+  p2pEnabled: true
+  localPort: 8098
+schema:
+  connectionMode: list(direct|legacy)
+  externalOrigin: "str?"
+  bridgeId: str
+  relay: url
+  relayKey: password
+  adminKey: password
+  cameras:
+    - id: str
+      name: str
+      exposed: bool
+      rtsp: "str?"
+      onvifHost: "str?"
+      onvifPort: "port?"
+      onvifUsername: "str?"
+      onvifPassword: "password?"
+      onvifProfileToken: "str?"
+  directEnabled: bool
+  p2pEnabled: bool
+  localPort: port
+
+url: https://github.com/jp2creation/camtoone/tree/main/bridge-home-assistant
